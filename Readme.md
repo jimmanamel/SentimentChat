@@ -21,3 +21,9 @@ python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
 uvicorn server:app --reload
+
+### frontend
+
+cd frontend
+npm install
+npm run dev
