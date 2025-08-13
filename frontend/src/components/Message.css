@@ -1,0 +1,25 @@
+.message {
+    padding: 0.75rem 1rem;
+    border-radius: 12px;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .message.positive {
+    background-color: #2e7d32;
+    color: white;
+  }
+  
+  .message.neutral {
+    background-color: #424242;
+    color: white;
+  }
+  
+  .message.negative {
+    background-color: #c62828;
+    color: white;
+  }
+  
+  .message .emoji {
+    margin-right: 0.5rem;
+  }
